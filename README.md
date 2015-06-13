@@ -17,3 +17,5 @@ This means it can be easily modified with any text-editor.
 - Image lines are newline `\n` separated
 - May contain a `palette` field
 	- Only specified characters may be used for pixels then (others are ignored)
+- May have an `encoding` field which specifies if pixels are only ASCII
+	or also UTF-8 characters.
