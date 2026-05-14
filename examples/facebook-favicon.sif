@@ -1,3 +1,4 @@
+---
 name: Facebook favicon
 width: 256
 height: 256
@@ -6,7 +7,7 @@ syntaxVersion: 0.1.0
 palette:
 	1: #000000
 	' ': #ffffff
----
+...
 
 _________________________________
                                 |

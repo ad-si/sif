@@ -4,6 +4,36 @@ The string image format is a utf-8 based plain text image format.
 This means it can be easily modified with any text-editor.
 
 
+## Example
+
+A 5×5 heart:
+
+```
+---
+name: Heart
+width: 7
+height: 7
+syntaxVersion: 0.1.0
+pixelSeparator: true
+palette:
+	X: #ff0000
+	' ': #ffffff
+...
+
+---------------
+              |
+  X X   X X   |
+X X X X X X X |
+  X X X X X   |
+    X X X     |
+      X       |
+              |
+---------------
+```
+
+More examples are in [`examples/`](examples/).
+
+
 ## Specification
 
 - Must start with a [YAML frontend matter](http://jekyllrb.com/docs/frontmatter)
